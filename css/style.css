@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300;500;800&display=swap');
+
+*{
+    margin:0px;
+    padding:0px;
+    font-family: Mukta, sans-serif;
+}
+
+header{
+    background-image: url(../images/bg1.jpg);
+    height: 100vh;
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    color: coral;
+    flex-wrap: wrap;
+    
+}
+nav .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+nav ul li{
+    margin:0px 10px;
+}
+nav li a{
+    text-decoration: none;
+    color: darkblue;
+}
+nav li a:hover{
+    color: white;
+}
+header .content{
+    color:blueviolet;
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+header .content button{
+    width: 200px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: crimson;
+    font-size: 1.25em;
+}
+header .content button:hover{
+    background-color: darkcyan;
+    cursor: pointer;
+
+}
+.middle{
+    display: flex;
+    
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(252, 162, 26);
+}
+.middle h3{
+    font-size: 1.50em;
+    color: rgb(82, 12, 212);
+}
+.middle h4{
+    font-size: 1.25em;
+    
+}
+.middle h5{
+    font-size: 1.15em;
+    
+}
+.middle .box{
+    margin: 30px 0px;
+
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 150px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px crimson;
+}
+.head{
+    text-align: center;
+    margin-top: 70px;
+    color: rgb(238, 22, 22);
+    font-size: 3em;
+
+}
+.middle .video{
+    margin: 20px 0px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 350px;
+    height: 200px;
+    border-radius: 15px;
+
+}
+.blog{
+    display:flex;
+    flex-direction: column;
+    height: 150px;
+    border-left: 5px solid chartreuse;
+    margin:20px;
+    box-shadow:0px 0px 10px red;
+    padding-left: 20px 30px;
+    justify-content: space-evenly;
+    
+
+}
+.blog .title{
+    font-size: 2em;
+    color: seagreen;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+.blog .date{
+    font-size: 1.25em;
+    font-weight: 500;
+    color:violet;
+}
+.blog .content{
+    border-top: 1px salmon;
+    text-align: justify;
+}
+.contact{
+    margin:20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    height: 500px;
+    
+}
+.contact .left img{
+    width: 100%;
+    height: 60vh;
+}
+.contact .left{
+    flex-grow: 1;
+}
+.contact .right{
+    flex-grow: 2;
+}
+.contact .right .frm{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contact .right input{
+    width: 100%;
+    height: 35px;
+    margin: 10px 0px;
+}
+.contact .right textarea{
+    width: 100%;
+    height: 100px;
+    margin: 10px 0px;
+}
+.contact .right button{
+    width: 100%;
+    height: 35px;
+    background-color: cornflowerblue;
+    color: black;
+    
+}
+footer{
+    background-color: brown;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+footer ul{
+    list-style-type: none;
+    display: flex;
+}
+footer ul a{
+    text-decoration: none;
+    color: violet;
+    font-size: .9em;
+    margin-left: 20px;
+
+}
+
